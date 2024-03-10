@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Rubik+Mono+One&family=Ysabeau+SC:wght@1..1000&display=swap');
+.two-section-one p
+{
+    text-align: justify;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: rgb(177, 177, 177);
+    font-family: "Ysabeau SC", sans-serif;
+    line-height: 1.2;
+}
+
+.two-subsection-two,h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6vw;
+    color: grey;
+}
+
+.two-sub-one h3{
+    line-height: 1.3;
+}
+
+.two-section-one span{
+    color: black;
+}
+
+.two-subsection-desc-div p{
+    margin: 0px;
+    font-size: 1.2vw;
+    line-height: 1.2;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.two-subsection-desc-div span{
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+
+/*---------------------------------*/
+.two-container{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.two-section-one{
+    width: 90%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+/*---------------------------------------- */
+
+.two-section-two{
+    width: 90%;
+    height: auto
+}
+
+.wrapper-image-div-two{
+    width: 100%;
+    height: 55vh;
+    background-color: red;
+}
+
+.wrapper-image-two{
+    width: 100%;
+    height: inherit;
+    box-shadow: 10px 5px 30px 2px rgb(145, 145, 145);
+}
+
+.two-sub-one{
+    position: absolute;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+}
+
+/*------------------------------*/
+.two-section-desc-dev{
+    width: 100%;
+    height: auto;
+}
+
+.two-subsection-desc-div{
+    width: 50%;
+    height: inherit;
+    padding: 15px 0px;
+}

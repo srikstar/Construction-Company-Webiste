@@ -1,0 +1,45 @@
+.three-container,.three-section-desc-div, h5
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.1vw;
+    font-weight: 600;
+    margin: 0;
+}
+
+.three-section-desc-div  p
+{
+    margin-top: 10px;
+    font-size: 0.8vw;
+    font-weight: 500;
+    padding: 0px 8px;
+}
+
+/*---------------------------------------------*/
+.three-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.three-section-one
+{
+    width: 90%;
+    height: auto;
+}
+
+.three-one-div
+{
+    width: 25vw;
+    height: auto;
+    box-shadow: 10px 5px 30px 2px rgb(145, 145, 145);
+}
+
+.three-section-images{
+    width: 100%;
+    height: 60vh;
+}
+
+.three-section-desc-div{
+    width: 100%;
+    height: 17vh;
+    margin: 0px;
+}

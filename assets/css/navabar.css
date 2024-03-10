@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    margin: 0px;
+    outline: none;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-sb
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-sa
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-fs
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*----------------------------------------------------*/
+
+a{
+    color: rgb(134, 134, 134);
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+}
+
+.logo{
+    font-size:2.7rem
+}
+
+.navbar-container,p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+/*-------------------------------------------------                               SLIDER ---*/       
+
+.slider-navbar
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    transform: translateY(-100vh);
+}
+
+.navbar-links-container
+{
+    width: 60%;
+    height: 60vh;
+}
+
+.navbar-links
+{
+    width: 100%;
+    height: 50vh;
+}
+
+.navbar-contact
+{
+    width: 100%;
+    height: 5vh;
+}
+
+.navlinks
+{
+    font-size: 3.4rem;
+    font-weight: 300;
+    transition: color 0.4s ease;
+    opacity: 0;
+}
+
+.navcontact-links
+{
+    font-size: 1.3rem;
+    transition: color 0.4s ease;
+    opacity: 0;
+}
+
+#links:hover{
+    color: rgb(197, 197, 197);
+    transition: color 0.5s ease-in-out;
+}
+
+/*-------------------------------------------------                          SLIDER ---*/
+
+
+
+
+/*-------------------------------------------------                          NAVBAR ---*/
+
+.navbar-main{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0);
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-container{
+    width: 90%;
+    height: auto;
+}
+
+#hamberger{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.one-ham{
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 8px;
+}
+
+.two-ham{
+    width: 40px;
+    height: 3px;
+    background-color: black;
+}
+
+
+/*-------------------------------------------------                          NAVBAR ---*/

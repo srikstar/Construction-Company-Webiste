@@ -1,0 +1,86 @@
+
+.column-sb{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*------------------------------------*/
+.one-container, h3{
+    font-size: 4.8vw;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+.one-desc p{
+    font-size: 1.1vw;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+hr{
+    width: 70%;
+    height: 2px;
+    background-color: rgb(78, 78, 78);
+    
+}
+
+/*---------------------------------- */
+.one-container
+{
+    width: 100%;
+    height: 90vh;
+}
+
+.one-section-one{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+/*---------------------------------------------- */
+
+.one-section-two{
+    width: 90%;
+    height: 55vh;
+}
+
+.wrapper-image-div{
+    width: 70%;
+    height: inherit;
+}
+
+.wrapper-image-one{
+    width: 100%;
+    height: inherit;
+    box-shadow: 10px 5px 30px 2px rgb(145, 145, 145);
+}
+
+.section-one-desc{
+    width: 30%;
+    height: inherit;
+}
+
+.one-desc{
+    width: 90%;
+    height: inherit;
+}
+
+.section-one-btn{
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+.section-one-desc a{
+    font-size: 1.2vw;
+    color: black;
+}
+
+.section-one-btn{
+    border-radius: 25px;
+    border: 2px solid black;
+}
